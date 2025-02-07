@@ -36,5 +36,3 @@ public class RealEstate
 	/// </summary>
 	public required int Rooms { get; set; }
 }
-
-}

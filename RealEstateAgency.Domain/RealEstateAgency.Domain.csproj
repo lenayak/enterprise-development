@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>RealEstateAgency.Domain</AssemblyName>
+		<RootNamespace>RealEstateAgency.Domain</RootNamespace>
+		<PackageId>RealEstateAgency.Domain</PackageId>
+		<Authors>RealEstateAgency.Domain</Authors>
+		<Product>RealEstateAgency.Domain</Product>
+	</PropertyGroup>
+
+</Project>

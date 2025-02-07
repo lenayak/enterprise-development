@@ -29,7 +29,7 @@ public class Order
     /// <summary>
     /// Тип заявки (покупка или продажа)
     /// </summary>
-    public required TransactionType Type { get; set; }
+    public required TypeOrder Type { get; set; }
 
     /// <summary>
     /// Объект недвижимости
