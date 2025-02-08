@@ -1,3 +1,5 @@
+п»їusing System.Xml;
+
 namespace RealEstateAgency.Domain;
 
 public enum TypeOrder
@@ -7,37 +9,37 @@ public enum TypeOrder
 }
 
 /// <summary>
-/// Заявка клиента
+/// Р—Р°СЏРІРєР° РєР»РёРµРЅС‚Р°
 /// </summary>
 public class Order
 {
     /// <summary>
-    /// Идентификатор заявки
+    /// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ Р·Р°СЏРІРєРё
     /// </summary>
     public required int Id { get; set; }
 
     /// <summary>
-    /// Клиент, сделавший заявку
+    /// РљР»РёРµРЅС‚, СЃРґРµР»Р°РІС€РёР№ Р·Р°СЏРІРєСѓ
     /// </summary>
     public required Client Client { get; set; }
 
     /// <summary>
-    /// Время заявки
+    /// Р’СЂРµРјСЏ Р·Р°СЏРІРєРё
     /// </summary>
     public required DateTime Time { get; set; }
 
     /// <summary>
-    /// Тип заявки (покупка или продажа)
+    /// РўРёРї Р·Р°СЏРІРєРё (РїРѕРєСѓРїРєР° РёР»Рё РїСЂРѕРґР°Р¶Р°)
     /// </summary>
     public required TypeOrder Type { get; set; }
 
     /// <summary>
-    /// Объект недвижимости
+    /// РћР±СЉРµРєС‚ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
     /// </summary>
     public required RealEstate Item { get; set; }
 
     /// <summary>
-    /// Цена недвижимости
+    /// Р¦РµРЅР° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё
     /// </summary>
     public required decimal Price { get; set; }
 }
