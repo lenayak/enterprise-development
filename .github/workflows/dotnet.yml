@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore RealEstateAgency (2)/RealEstateAgency.sln
+      run: dotnet restore 'RealEstateAgency (2)/RealEstateAgency.sln'
     - name: Build
       run: dotnet build --no-restore RealEstateAgency/RealEstateAgency.sln
     - name: Test
